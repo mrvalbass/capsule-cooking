@@ -10,34 +10,57 @@
   <link rel="stylesheet" href="./style/style.css">
   <script src="./script/script.js" defer></script>
 </head>
+
 <body>
-<div class="container">
-  <h1>La Capsule's cooking</h1>
-  <div class="hero">
-    <img src="./style/images/cake.png" alt="cake" class="hero-img">
-    <div class="hero-right-panel">
-      <div class="hero-text-content">
-        <div class="hero-trendy">
-          <img src="./style/images/trendy-arrow.svg" alt="trendy-arrow">
-          <p>85% would make this again</p>
+  <div class="popup-container">
+    <div class="popup">
+      <p class="popup-title">Ajouter une recette</p>
+      <div class="new-recipe-datas">
+        <div class="recipe-name recipe-data">
+          <p>Nom de la recette</p>
+          <input type="text" class="input-name" placeholder="Recipe Name">
         </div>
-        <h2>Mighty Super Cheesecake</h2>
-        <p>Look no further for a creamy and
-          ultra smooth classic cheesecake
-          recipe! no one can deny its simple
-          decadence.</p>
-      </div>
-      <div class='right-arrow'>
-        <img src="./style/images/right-arrow.svg" alt="right arrow"/>
+        <div class="note recipe-data">
+          <p>Note</p>
+          <div class="star-container" data-value = '0'>
+            <img src="./style/images/empty-star.svg" alt="star" data-value="1">
+            <img src="./style/images/empty-star.svg" alt="star" data-value="2">
+            <img src="./style/images/empty-star.svg" alt="star" data-value="3">
+            <img src="./style/images/empty-star.svg" alt="star" data-value="4">
+            <img src="./style/images/empty-star.svg" alt="star" data-value="5">
+          </div>
+        </div>
+        <button class="add-recipe">Ajouter</button>
       </div>
     </div>
   </div>
-  <div class="recipe-header">
-    <h3>Super Delicious</h3>
-    <button>Ajouter une recette</button>
+  <div class="container">
+    <h1>La Capsule's cooking</h1>
+    <div class="hero">
+      <img src="./style/images/cake.png" alt="cake" class="hero-img">
+      <div class="hero-right-panel">
+        <div class="hero-text-content">
+          <div class="hero-trendy">
+            <img src="./style/images/trendy-arrow.svg" alt="trendy-arrow">
+            <p>85% would make this again</p>
+          </div>
+          <h2>Mighty Super Cheesecake</h2>
+          <p>Look no further for a creamy and
+            ultra smooth classic cheesecake
+            recipe! no one can deny its simple
+            decadence.</p>
+        </div>
+        <div class='right-arrow'>
+          <img src="./style/images/right-arrow.svg" alt="right arrow"/>
+        </div>
+      </div>
+    </div>
+    <div class="recipe-header">
+      <h3>Super Delicious</h3>
+      <button class="add-btn">Ajouter une recette</button>
+    </div>
+    <div class="recipe-container">
+    </div>
   </div>
-  <div class="recipe-container">
-  </div>
-</div>
 </body>
 </html>
