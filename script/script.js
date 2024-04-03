@@ -12,8 +12,8 @@ const trashes = Array.from(document.querySelectorAll('.trash'))
 // Data
 const recipes = [
   { image:"./style/images/pasta.png", stars:5, name:"Spinach and Cheese Pasta" },
-  { image:"../style/images/donut.png", stars:4, name:"Fancy Glazed Donuts" },
-  { image:"../style/images/burger.png", stars:5, name:"Mighty Cheesy Breakfast Burger" },
+  { image:"./style/images/donut.png", stars:4, name:"Fancy Glazed Donuts" },
+  { image:"./style/images/burger.png", stars:5, name:"Mighty Cheesy Breakfast Burger" },
 ];
 const imgPlaceholder = './style/images/placeholder.png'
 
